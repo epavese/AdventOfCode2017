@@ -13,6 +13,7 @@ def executeRound(numbers, lengths, cur, skipLen):
 		assert(len(numbers) == 256)
 	return (numbers, cur, skipLen)
 
+
 lengths= [34,88,2,222,254,93,150,0,199,255,39,32,137,136,1,167]
 numbers= range(256)
 skipLen= 0
