@@ -83,6 +83,7 @@ sent1= 0
 finished= False
 
 while not finished:
+	# Interleave one line each program. Could minimise busy wait by running each program as much as they can each time
 	ip0, toPush0, wait0= runLine(sndPrg, regs0, queue0, ip0)
 	if toPush0 is not None:
 		queue1.append(toPush0)
